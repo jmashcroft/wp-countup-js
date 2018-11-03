@@ -1,4 +1,7 @@
- $(".st-animate").click(function(e) {
+
+
+// countup
+$(".st-animate").click(function(e) {
       e.preventDefault();
       $(this).closest('li').find('.counter').each(function() {
         var $this = $(this),
